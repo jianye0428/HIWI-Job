@@ -49,7 +49,7 @@ function sliderDistChange(ui,id,newVal)
         sim.removeObject(child)
         child=sim.getObjectChild(dummy_pointer,0)
     end
-    --
+
     dist=newVal/1000
     simUI.setSliderValue(ui,8,dist*1000)
     size_left_foot=sim.getObjectSizeValues(left_foot)
@@ -90,7 +90,7 @@ function sliderYChange(ui,id,newVal)
         sim.removeObject(child)
         child=sim.getObjectChild(dummy_pointer,0)
     end
-    --
+
     sizeY=minMaxSize[1]+(minMaxSize[2]-minMaxSize[1])*newVal/100
     size=sim.getObjectSizeValues(h)
     size_left_foot=sim.getObjectSizeValues(left_foot)
@@ -124,7 +124,7 @@ function sliderZChange(ui,id,newVal)
         sim.removeObject(child)
         child=sim.getObjectChild(dummy_pointer,0)
     end
-    --
+
     sizeZ=minMaxSize[1]+(minMaxSize[2]-minMaxSize[1])*newVal/100
     size=sim.getObjectSizeValues(h)
     sizeHeight=sim.getObjectPosition(h,-1)
