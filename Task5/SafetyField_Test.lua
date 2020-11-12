@@ -7,7 +7,7 @@ function sysCall_init()
     delayTimer = 0
     delay = 10
 end
-
+--
 function sysCall_actuation()
     local activationStatus = false -- indicates if protective field is activated
     if exactMode then
