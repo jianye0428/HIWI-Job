@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "vector": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "string_view": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
     }
 }
